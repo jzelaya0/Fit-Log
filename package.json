@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jzelaya0/Fit-Log/issues"
   },
-  "homepage": "https://github.com/jzelaya0/Fit-Log#readme"
+  "homepage": "https://github.com/jzelaya0/Fit-Log#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
