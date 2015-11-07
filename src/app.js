@@ -15,6 +15,8 @@ app.set('views', __dirname + '/views');
 
 //Home Route
 app.get('/', function(req,res){
+  var path = req.path;
+  res.locals.path = path;
   res.render('index');
 });
 
